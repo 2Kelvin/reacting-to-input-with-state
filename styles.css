@@ -1,0 +1,26 @@
+body {
+    display: grid;
+    place-content: center;
+    height: 95vh;
+}
+
+.form {
+    padding: 2em;
+    border-radius: 15px;
+    border: 1px solid #999;
+}
+
+.form_success {
+    color: green;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
